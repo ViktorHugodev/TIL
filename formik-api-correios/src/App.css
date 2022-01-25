@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.App .form-street {
+	display: flex;
+	align-items: center;
+}
+.App .form-control-street {
+	display: flex;
+	flex-direction: column;
+}
+
+.App .form-control-number {
+	display: flex;
+	flex-direction: column;
+}
+
+.App .form-control-number input {
+	margin-top: 10px;
+	width: 70px;
+}
+.App .form-control-street input {
+	margin-top: 10px;
+	width: 280px;
+}
+.App .form-control-group label {
+	margin-bottom: 10px;
+}
+
+.App .form-control-group {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	margin: 2rem auto;
+}
