@@ -1,4 +1,4 @@
-import { FC, useCallback, useState } from 'react';
+import { FC, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { IState } from '../store';
 import { addToProductToCartRequest } from '../store/modules/cart/actions';
